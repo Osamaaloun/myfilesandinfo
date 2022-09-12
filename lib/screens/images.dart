@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+class Images1 extends StatefulWidget {
+  const Images1({super.key});
+
+  @override
+  State<Images1> createState() => _Images1State();
+}
+
+class _Images1State extends State<Images1> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(appBar: AppBar(),body: Center(child: Text("welcome to images"),),);
+  }
+}
